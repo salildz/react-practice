@@ -4,7 +4,16 @@ import Home from "./pages/Home";
 
 const darkTheme = createTheme({
   palette: {
-    mode: "dark",
+    mode: "light",
+    primary: {
+      main: "#b7957d",
+    },
+    secondary: {
+      main: "#ece0d1",
+    },
+    info: {
+      main: "#6f5443",
+    },
   },
 });
 
